@@ -1,4 +1,4 @@
-var discordInvite = "https://discord.com/invite/BRudbsetbu";
+var discordInvite = "https://discord.littl.club/";
 
 function hideAgeWarning() {
     document.getElementsByTagName("body")[0].style.overflow = "auto";

@@ -124,6 +124,12 @@ hr {
     margin-top: 16px;
 }
 
+.diaper {
+    width: 40%;
+    padding: 0px;
+    margin: 0px;
+}
+
 .warning {
     position: absolute;
     top: 0;
