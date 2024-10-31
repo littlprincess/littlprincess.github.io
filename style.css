@@ -74,7 +74,8 @@ body {
     position: absolute;
     left: 25%;
     top: 25%;
-    border: 4px solid white;
+    border: 4px solid #fc90e9;
+    filter:drop-shadow(8px 8px #ffc7f5);
 }
 
 .warning-header {
@@ -190,9 +191,18 @@ body {
 
 .star-divider {
     width: 100%;
-    padding: 16px;
+    padding-bottom: 16px;
 }
 
 .faq-content {
     padding-bottom: 32px;
+}
+
+li {
+    list-style: none;
+    background-size: 32px;
+    background-image: url(assets/zzz.gif);
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    padding-bottom: 16px;
 }

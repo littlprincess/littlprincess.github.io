@@ -1,7 +1,7 @@
 //littl.club sfw padded agere discord community :3
 
 var discordInvite = "https://discord.littl.club/";
-var agereWebsite = "";
+var agereWebsite = "https://allaboutarden.wordpress.com/what-is-age-regression/";
 
 function hideAgeWarning() {
     document.getElementsByTagName("body")[0].style.overflow = "auto";
