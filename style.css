@@ -1,9 +1,4 @@
 @font-face {
-    font-family: lovebutterfly;
-    src: url(assets/lovebutterfly.ttf);
-}
-
-@font-face {
     font-family: crayon;
     src: url(assets/crayon.ttf);
 }
@@ -11,11 +6,6 @@
 @font-face {
     font-family: eighteen;
     src: url(assets/eighteen.ttf);
-}
-
-@font-face {
-    font-family: mory;
-    src: url(assets/mory.ttf);
 }
 
 @font-face {
@@ -28,8 +18,7 @@
     --light-pink: #ffccf6;
     --purple: #b980ff;
     --light-purple: #e4a6ff;
-    --trans-blue: #5BCEFA;
-    --trans-pink: #F5A9B8;
+    --light-yellow: #ffffa6;
 }
 
 html {
@@ -38,7 +27,7 @@ html {
 
 body {
     margin: 0px;
-    background: linear-gradient(-45deg, #ffffa6, var(--pink), var(--light-pink));
+    background: linear-gradient(-45deg, var(--light-yellow), var(--pink), var(--light-pink), var(--pink), var(--light-pink));
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -60,6 +49,10 @@ hr {
     color: white;
 }
 
+.faq-content {
+    padding-bottom: 32px;
+}
+
 .main-sidebar {
     background-color: var(--light-purple);
     width: 25%;
@@ -76,7 +69,7 @@ hr {
 }
 
 .main-heading {
-    font-family: lovebutterfly;
+    font-family: hipchick;
     color: white;
     font-size: 64px;
     text-align: center;
@@ -109,7 +102,7 @@ hr {
     color: white;
     background-color: var(--light-purple);
     border-radius: 16px;
-    font-family: hipchick;
+    font-family: crayon;
     font-size: 32px;
     filter:drop-shadow(8px 8px white);
     text-align: center;
@@ -144,7 +137,7 @@ hr {
 }
 
 .age-warning {
-    font-family: hipchick;
+    font-family: crayon;
     font-size: 32px;
     width: 50%;
     height: auto;
@@ -172,9 +165,11 @@ hr {
     font-size: 32px;
     border-radius: 16px;
     width: 40%;
-    height: 48px;
+    min-height: 48px;
+    height: auto;
     margin-left: 30%;
     margin-right: 30%;
+    user-select: none;
 }
 
 .warning-button:hover {
@@ -182,18 +177,23 @@ hr {
 }
 
 .warning-button > p {
-    padding-top: 8px;
+    padding-top: 0px;
     user-select: none;
 }
 
-@keyframes wiggle {
-    0% { transform: rotate(0deg); }
-   80% { transform: rotate(0deg); }
-   85% { transform: rotate(3deg); }
-   95% { transform: rotate(-3deg); }
-  100% { transform: rotate(0deg); }
+.sidebar-divider {
+    width: 80%;
+    padding: 8px;
 }
 
-* {
-    box-sizing: border-box
+.sidebar-tagline {
+    font-family: crayon;
+    font-size: 32px;
+    color: white;
+    margin: 0px;
+}
+
+.star-divider {
+    width: 100%;
+    padding: 16px;
 }
