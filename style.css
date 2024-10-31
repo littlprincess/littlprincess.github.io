@@ -1,3 +1,5 @@
+/* littl.club sfw padded agere discord community :3 */
+
 @font-face {
     font-family: crayon;
     src: url(assets/crayon.ttf);
@@ -17,7 +19,7 @@
     --pink: #ffa6ef;
     --light-pink: #ffccf6;
     --purple: #b980ff;
-    --light-purple: #e4a6ff;
+    --light-purple: #e8b3ff;
     --light-yellow: #ffffa6;
 }
 
@@ -45,84 +47,7 @@ body {
 	}
 }
 
-hr {
-    color: white;
-}
-
-.faq-content {
-    padding-bottom: 32px;
-}
-
-.main-sidebar {
-    background-color: var(--light-purple);
-    width: 25%;
-    max-width: 300px;
-    height: auto;
-    position: fixed;
-    top: 32px;
-    left: 32px;
-    text-align: center;
-    padding-bottom: 16px;
-    border-radius: 8px;
-    border: 4px solid white;
-    
-}
-
-.main-heading {
-    font-family: hipchick;
-    color: white;
-    font-size: 64px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 8px;
-}
-
-.heading-image {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-}
-
-.main-img {
-    width: 80%;
-    margin: 10% 10% 2% 10%;
-    border-radius: 50%;
-}
-
-.main-graphic {
-    width: 80%;
-}
-
-.main-content-heading {
-    font-family: eighteen;
-    font-size: 48px;
-}
-
-.main-content {
-    color: white;
-    background-color: var(--light-purple);
-    border-radius: 16px;
-    font-family: crayon;
-    font-size: 32px;
-    filter:drop-shadow(8px 8px white);
-    text-align: center;
-    width: 60%;
-    height: auto;
-    padding: 32px;
-    margin-left: 30%;
-    margin-top: 32px;
-}
-
-.rainbow {
-    margin-top: 16px;
-}
-
-.diaper {
-    width: 40%;
-    padding: 0px;
-    margin: 0px;
-}
-
+/* Age Warning Popup */
 .warning {
     position: absolute;
     top: 0;
@@ -131,7 +56,7 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgba(185, 128, 255, 0.8);
+    background:rgba(206, 166, 255, 0.664);
     backdrop-filter: blur(8px);
     z-index: 9999;
 }
@@ -181,6 +106,44 @@ hr {
     user-select: none;
 }
 
+/* Sidebar */
+.sidebar {
+    background-color: var(--light-purple);
+    width: 25%;
+    max-width: 300px;
+    height: auto;
+    position: fixed;
+    top: 32px;
+    left: 32px;
+    text-align: center;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    border: 4px solid #e4a6ff;
+    filter:drop-shadow(8px 8px #f6e3ff);
+}
+
+.sidebar-heading {
+    font-family: hipchick;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.server-img {
+    width: 80%;
+    margin: 10% 10% 2% 10%;
+    border-radius: 50%;
+    border: 8px solid #e4a6ff;
+}
+
+.diaper {
+    width: 40%;
+    padding: 0px;
+    margin: 0px;
+}
+
 .sidebar-divider {
     width: 80%;
     padding: 8px;
@@ -193,7 +156,43 @@ hr {
     margin: 0px;
 }
 
+/* Main Content */
+.titlebar {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.main-graphic {
+    width: 80%;
+}
+
+.main-content-heading {
+    font-family: eighteen;
+    font-size: 48px;
+}
+
+.main-content {
+    color: white;
+    background-color: var(--light-purple);
+    border-radius: 16px;
+    font-family: crayon;
+    font-size: 32px;
+    text-align: center;
+    width: 60%;
+    height: auto;
+    padding: 32px;
+    margin-left: 30%;
+    margin-top: 32px;
+    border: 4px solid #e4a6ff;
+    filter:drop-shadow(8px 8px #f6e3ff);
+}
+
 .star-divider {
     width: 100%;
     padding: 16px;
+}
+
+.faq-content {
+    padding-bottom: 32px;
 }

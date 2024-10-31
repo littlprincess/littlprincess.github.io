@@ -1,4 +1,7 @@
+//littl.club sfw padded agere discord community :3
+
 var discordInvite = "https://discord.littl.club/";
+var agereWebsite = "";
 
 function hideAgeWarning() {
     document.getElementsByTagName("body")[0].style.overflow = "auto";
@@ -7,6 +10,10 @@ function hideAgeWarning() {
 
 function discordRedirect() {
     window.open(discordInvite, '_blank');
+}
+
+function agereRedirect() {
+    window.open(agereWebsite, '_blank');
 }
 
 function onLoad() {
