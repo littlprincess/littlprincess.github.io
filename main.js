@@ -1,4 +1,4 @@
-//littl.club sfw padded agere discord community :3
+//padded playroom sfw padded agere discord community :3
 
 var discordInvite = "https://discord.littl.club/";
 var agereWebsite = "https://allaboutarden.wordpress.com/what-is-age-regression/";
