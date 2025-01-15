@@ -30,7 +30,10 @@
     --light-pink: #ffccf6;
     --purple: #b980ff;
     --light-purple: #e8b3ff;
-    --light-yellow: #ffffa6;
+    --light-yellow: #fcfdcd;
+    --light-blue: #cff1fb;
+    --flag-pink: #ffdbdb;
+    --white: #ffffff;
 }
 
 html {
@@ -39,9 +42,9 @@ html {
 
 body {
     margin: 0px;
-    background: linear-gradient(-45deg, var(--light-yellow), var(--pink), var(--light-pink), var(--pink), var(--light-pink));
+    background: linear-gradient(-45deg, var(--light-yellow), var(--light-blue), var(--flag-pink), var(--white));
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 16s ease infinite;
 	height: 100vh;
 }
 
@@ -134,7 +137,7 @@ body {
     padding-bottom: 16px;
     border-radius: 8px;
     border: 4px solid #e4a6ff;
-    filter:drop-shadow(8px 8px #f6e3ff);
+    filter:drop-shadow(8px 8px #ffffff);
 }
 
 .sidebar-heading {
@@ -196,11 +199,15 @@ body {
     text-align: center;
     width: 60%;
     height: auto;
-    padding: 32px;
-    margin-left: 30%;
+    padding: 8px;
+    margin-left: 32%;
     margin-top: 32px;
     border: 4px solid #e4a6ff;
-    filter:drop-shadow(8px 8px #f6e3ff);
+    filter:drop-shadow(8px 8px #ffffff);
+}
+
+.main-text {
+    padding: 32px;
 }
 
 .star-divider {
