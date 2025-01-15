@@ -116,7 +116,7 @@ body {
 }
 
 .warning-button > p {
-    padding-top: 4px;
+    padding: 4px;
     user-select: none;
 }
 
