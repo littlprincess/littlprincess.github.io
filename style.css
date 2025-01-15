@@ -1,4 +1,4 @@
-/* padded playroom sfw padded agere discord community :3 */
+/* padded planet sfw padded agere discord community :3 */
 
 @font-face {
     font-family: crayon;
@@ -13,6 +13,16 @@
 @font-face {
     font-family: hipchick;
     src: url(assets/hipchick.ttf);
+}
+
+@font-face {
+    font-family: moresugar;
+    src: url(assets/moresugar.ttf);
+}
+
+@font-face {
+    font-family: gummycandy;
+    src:  url(assets/gummycandy.ttf);
 }
 
 :root {
@@ -62,7 +72,7 @@ body {
 }
 
 .age-warning {
-    font-family: crayon;
+    font-family: moresugar;
     font-size: 32px;
     width: 50%;
     height: auto;
@@ -87,8 +97,8 @@ body {
 .warning-button {
     background-color: var(--light-pink);
     color: white;
-    font-family: hipchick;
-    font-size: 32px;
+    font-family: moresugar;
+    font-size: 24px;
     border-radius: 16px;
     width: 40%;
     min-height: 48px;
@@ -103,8 +113,12 @@ body {
 }
 
 .warning-button > p {
-    padding-top: 0px;
+    padding-top: 4px;
     user-select: none;
+}
+
+.join-button-text {
+    padding-top: 4px;
 }
 
 /* Sidebar */
@@ -124,7 +138,7 @@ body {
 }
 
 .sidebar-heading {
-    font-family: hipchick;
+    font-family: gummycandy;
     color: white;
     font-size: 64px;
     text-align: center;
@@ -151,7 +165,7 @@ body {
 }
 
 .sidebar-tagline {
-    font-family: crayon;
+    font-family: moresugar;
     font-size: 32px;
     color: white;
     margin: 0px;
@@ -177,7 +191,7 @@ body {
     color: white;
     background-color: var(--light-purple);
     border-radius: 16px;
-    font-family: crayon;
+    font-family: moresugar;
     font-size: 32px;
     text-align: center;
     width: 60%;

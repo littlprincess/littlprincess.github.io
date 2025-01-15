@@ -1,6 +1,6 @@
-//padded playroom sfw padded agere discord community :3
+//padded planet sfw padded agere discord community :3
 
-var discordInvite = "https://discord.littl.club/";
+var discordInvite = "https://discord.com/invite/BRudbsetbu";
 var agereWebsite = "https://allaboutarden.wordpress.com/what-is-age-regression/";
 
 function hideAgeWarning() {
