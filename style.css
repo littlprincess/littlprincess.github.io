@@ -1,21 +1,6 @@
 /* padded planet sfw padded agere discord community :3 */
 
 @font-face {
-    font-family: crayon;
-    src: url(assets/crayon.ttf);
-}
-
-@font-face {
-    font-family: eighteen;
-    src: url(assets/eighteen.ttf);
-}
-
-@font-face {
-    font-family: hipchick;
-    src: url(assets/hipchick.ttf);
-}
-
-@font-face {
     font-family: moresugar;
     src: url(assets/moresugar.ttf);
 }
@@ -23,6 +8,11 @@
 @font-face {
     font-family: gummycandy;
     src:  url(assets/gummycandy.ttf);
+}
+
+@font-face {
+    font-family: cutest;
+    src: url(assets/cutest.ttf);
 }
 
 :root {
@@ -43,7 +33,7 @@ html {
 body {
     margin: 0px;
     background: linear-gradient(-45deg, var(--light-yellow), var(--light-blue), var(--flag-pink), var(--white));
-	background-size: 400% 400%;
+	background-size: 500% 500%;
 	animation: gradient 16s ease infinite;
 	height: 100vh;
 }
@@ -92,7 +82,7 @@ body {
 }
 
 .warning-header {
-    font-family: eighteen;
+    font-family: cutest;
     font-size: 48px;
     color: white;
 }
@@ -149,6 +139,12 @@ body {
     margin-bottom: 8px;
 }
 
+.hello-img {
+    position: absolute;
+    left: 200px;
+    top: 125px;
+}
+
 .server-img {
     width: 80%;
     margin: 10% 10% 2% 10%;
@@ -163,7 +159,7 @@ body {
 }
 
 .sidebar-divider {
-    width: 80%;
+    width: 95%;
     padding: 8px;
 }
 
@@ -182,12 +178,13 @@ body {
 }
 
 .main-graphic {
-    width: 80%;
+    width: 100%;
 }
 
 .main-content-heading {
-    font-family: eighteen;
-    font-size: 48px;
+    font-family: cutest;
+    font-size: 64px;
+    margin-top: 0px;
 }
 
 .main-content {
@@ -200,7 +197,7 @@ body {
     width: 60%;
     height: auto;
     padding: 8px;
-    margin-left: 32%;
+    margin-left: 33%;
     margin-top: 32px;
     border: 4px solid #e4a6ff;
     filter:drop-shadow(8px 8px #ffffff);
