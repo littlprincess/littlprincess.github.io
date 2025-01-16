@@ -224,3 +224,9 @@ li {
     padding-left: 32px;
     padding-bottom: 16px;
 }
+
+@media only screen and (max-width: 1240px) {
+    .hello-img {
+        display: none;
+    }
+}
