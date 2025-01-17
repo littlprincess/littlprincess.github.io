@@ -99,6 +99,10 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     user-select: none;
+    -webkit-animation: btnHover 4s infinite;
+    -moz-animation: btnHover 4s infinite;
+    -o-animation: btnHover 4s infinite;
+    animation: btnHover 4s infinite;
 }
 
 .warning-button:hover {
@@ -137,12 +141,17 @@ body {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 8px;
+    -webkit-animation: nameWiggle 6s infinite;
+    -moz-animation: nameWiggle 6s infinite;
+    -o-animation: nameWiggle 6s infinite;
+    animation: nameWiggle 6s infinite;
 }
 
 .hello-img {
     position: absolute;
     left: 200px;
     top: 125px;
+    z-index: 64;
 }
 
 .server-img {
@@ -201,6 +210,7 @@ body {
     margin-top: 32px;
     border: 4px solid #e4a6ff;
     filter:drop-shadow(8px 8px #ffffff);
+    max-width: 1000px;
 }
 
 .main-text {
@@ -223,6 +233,48 @@ li {
     background-repeat: no-repeat;
     padding-left: 32px;
     padding-bottom: 16px;
+}
+
+@-webkit-keyframes btnHover {
+	0% {-webkit-transform: translate(0px, 0px);}
+	25% {-webkit-transform: translate(0px, 4px);}
+	50% {-webkit-transform: translate(0px, -4px);}
+	75% {-webkit-transform: translate(0px, 6px);}
+	100% {-webkit-transform: translate(0px, 0px);}
+}
+@-o-keyframes btnHover {
+	0% {-webkit-transform: translate(0px, 0px);}
+	25% {-webkit-transform: translate(0px, 4px);}
+	50% {-webkit-transform: translate(0px, -4px);}
+	75% {-webkit-transform: translate(0px, 6px);}
+	100% {-webkit-transform: translate(0px, 0px);}
+}
+@keyframes btnHover {
+	0% {-webkit-transform: translate(0px, 0px);}
+	25% {-webkit-transform: translate(0px, 4px);}
+	50% {-webkit-transform: translate(0px, -4px);}
+	75% {-webkit-transform: translate(0px, 6px);}
+	100% {-webkit-transform: translate(0px, 0px);}
+}
+
+
+@-webkit-keyframes nameWiggle {
+    0% {-webkit-transform: rotate(0deg);}
+    25% {-webkit-transform: rotate(4deg);}
+    75% {-webkit-transform: rotate(-4deg);}
+    100% {-webkit-transform: rotate(0deg);}
+}
+@-o-keyframes nameWiggle {
+    0% {-webkit-transform: rotate(0deg);}
+    25% {-webkit-transform: rotate(4deg);}
+    75% {-webkit-transform: rotate(-4deg);}
+    100% {-webkit-transform: rotate(0deg);}
+}
+@keyframes nameWiggle {
+    0% {-webkit-transform: rotate(0deg);}
+    25% {-webkit-transform: rotate(4deg);}
+    75% {-webkit-transform: rotate(-4deg);}
+    100% {-webkit-transform: rotate(0deg);}
 }
 
 @media only screen and (max-width: 1240px) {
